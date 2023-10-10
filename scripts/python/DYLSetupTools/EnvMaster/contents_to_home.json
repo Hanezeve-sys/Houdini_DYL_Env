@@ -1,0 +1,10 @@
+{
+    "env":[
+    {
+    "@___HOME_NAME___@_Dirs": "@___FOLDER_PATH___@"
+    }
+    ],
+    "package_path":[
+    "$@___HOME_NAME___@_Dirs/packages"
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "enable": "true",
+    "load_package_once": "true",
+    "path": [
+        {
+            "method" : "append",
+            "value" : "$@___HOME_NAME___@_Dirs"
+        }
+    ],
+    "env": [
+        {
+            "@___PACKAGE_NAME___@_Dirs":"$@___HOME_NAME___@_Dirs"
+        },
+        {
+            "HOUDINI_SCRIPT_PATH": {
+                "method": "append",
+                "value": [
+                    "$@___PACKAGE_NAME___@_Dirs/scripts"
+                ]
+            }
+        },
+        {
+            "HOUDINI_OTLSCAN_PATH": {
+                "method": "append", 
+                "value": [
+                    "$@___PACKAGE_NAME___@_Dirs/otls"
+                ]
+            }
+        },
+        {
+            "HOUDINI_VEX_PATH": {
+                "method": "append", 
+                "value": [
+                    "$@___PACKAGE_NAME___@_Dirs/vex/^"
+                ]
+            }
+        },
+        {
+            "HOUDINI_OCL_PATH": {
+                "method": "append", 
+                "value": [
+                    "$@___PACKAGE_NAME___@_Dirs/ocl"
+                ]
+            }
+        }
+    ]
+}

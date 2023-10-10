@@ -1,0 +1,144 @@
+#ifndef __DYL_PRECOMPILE_VFL__
+#define __DYL_PRECOMPILE_VFL__
+
+#include <dyl_precompile.vfl>
+
+#define DEFFUNCi(DEFFUNCname)\
+		DEFFUNCname(int)\
+/*
+DEFFUNCi()
+*/
+#define DEFFUNCf(DEFFUNCname)\
+		DEFFUNCname(float)\
+/*
+DEFFUNCf()
+*/
+#define DEFFUNCv2(DEFFUNCname)\
+		DEFFUNCname(vector2)\
+/*
+DEFFUNCv2()
+*/
+#define DEFFUNCv3(DEFFUNCname)\
+		DEFFUNCname(vector)\
+/*
+DEFFUNCv3()
+*/
+#define DEFFUNCv4(DEFFUNCname)\
+		DEFFUNCname(vector4)\
+/*
+DEFFUNCv4()
+*/
+#define DEFFUNCif(DEFFUNCname)\
+		DEFFUNCname(int)\
+		DEFFUNCname(float)\
+/*
+DEFFUNCif()
+*/
+#define DEFFUNCis(DEFFUNCname)\
+		DEFFUNCname(int)\
+		DEFFUNCname(string)\
+/*
+DEFFUNCis()
+*/
+#define DEFFUNCv23(DEFFUNCname)\
+		DEFFUNCname(vector2)\
+		DEFFUNCname(vector)\
+/*
+DEFFUNCv23
+*/
+#define DEFFUNCv24(DEFFUNCname)\
+		DEFFUNCname(vector2)\
+		DEFFUNCname(vector4)\
+/*
+DEFFUNCv24
+*/
+#define DEFFUNCv(DEFFUNCname)\
+		DEFFUNCname(vector2)\
+		DEFFUNCname(vector)\
+		DEFFUNCname(vector4)\
+/*
+DEFFUNCv()
+*/
+#define DEFFUNCm(DEFFUNCname)\
+		DEFFUNCname(matrix2)\
+		DEFFUNCname(matrix3)\
+		DEFFUNCname(matrix)\
+/*
+DEFFUNCm()
+*/		
+#define DEFFUNCfv(DEFFUNCname)\
+		DEFFUNCname(float)\
+		DEFFUNCv(DEFFUNCname)\
+/*
+DEFFUNCfv()
+*/
+#define DEFFUNCfm(DEFFUNCname)\
+		DEFFUNCname(float)\
+		DEFFUNCm(DEFFUNCname)\
+/*
+DEFFUNCfm()
+*/
+#define DEFFUNCvm(DEFFUNCname)\
+		DEFFUNCv(DEFFUNCname)\
+		DEFFUNCm(DEFFUNCname)\
+/*
+DEFFUNCvm()
+*/
+#define DEFFUNCifv(DEFFUNCname)\
+		DEFFUNCif(DEFFUNCname)\
+		DEFFUNCv(DEFFUNCname)\
+/*
+DEFFUNCifv()
+*/
+#define DEFFUNCifs(DEFFUNCname)\
+		DEFFUNCif(DEFFUNCname)\
+		DEFFUNCname(string)\
+/*
+DEFFUNCifs()
+*/
+#define DEFFUNCfvm(DEFFUNCname)\
+		DEFFUNCname(float)\
+		DEFFUNCvm(DEFFUNCname)\
+/*
+DEFFUNCfvm()
+*/
+#define DEFFUNCifvm(DEFFUNCname)\
+		DEFFUNCif(DEFFUNCname)\
+		DEFFUNCvm(DEFFUNCname)\
+/*
+DEFFUNCifvm()
+*/
+#define DEFFUNCifvs(DEFFUNCname)\
+		DEFFUNCifv(DEFFUNCname)\
+		DEFFUNCname(string)\
+/*
+DEFFUNCifvs()
+*/
+#define DEFFUNCfvms(DEFFUNCname)\
+		DEFFUNCfvm(DEFFUNCname)\
+		DEFFUNCname(string)\
+/*
+DEFFUNCfvms()
+*/
+#define DEFFUNCall(DEFFUNCname)\
+		DEFFUNCifvm(DEFFUNCname)\
+		DEFFUNCname(string)\
+/*
+DEFFUNCall()
+*/
+#define DEFFUNCclass(DEFFUNCname)\
+		DEFFUNCname(point)\
+		DEFFUNCname(vertex)\
+		DEFFUNCname(prim)\
+/*
+DEFFUNCclass()
+*/
+
+
+
+
+
+
+
+
+#endif // ! __PRECOMPILE_VFL__

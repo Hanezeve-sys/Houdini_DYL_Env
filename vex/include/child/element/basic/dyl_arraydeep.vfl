@@ -1,0 +1,15 @@
+#ifndef __DYL_ARRAYDEEP_VFL__
+#define __DYL_ARRAYDEEP_VFL__
+
+#include <dyl_preconpile.vfl>
+
+
+
+
+#define FUNCfind0(tpye)\
+		function
+		int find(
+			const type arr[], val;
+			){
+			
+		}
