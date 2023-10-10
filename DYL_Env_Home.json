@@ -1,10 +1,10 @@
 {
     "env": [
         {
-            "DYL_Env_Home_Dirs": "E:/Houdini/Framework/Dylan/DYL_Env",
-        },
+            "DYL_Env_Home_Dirs": "F:/Github/Houdini_DYL_Env"
+        }
     ],
     "package_path": [
-        "$DYL_Env_Home_Dirs/packages",
-    ],
+        "$DYL_Env_Home_Dirs/packages"
+    ]
 }
