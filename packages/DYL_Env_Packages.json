@@ -1,0 +1,49 @@
+{
+    "enable": "true",
+    "load_package_once": "true",
+
+    "env": [
+        {
+            "HOUDINI_SCRIPT_PATH": {
+                "method": "append",
+                "value": [
+                    "$DYL_Env_Home_Dirs/scripts",
+                ],
+            },
+        },
+        {
+            "HOUDINI_OTLSCAN_PATH": {
+                "method": "append",
+                "value": [
+                    "$DYL_Env_Home_Dirs/otls",
+                    "$DYL_Env_Home_Dirs/otls/Attribute",
+                    "$DYL_Env_Home_Dirs/otls/Growth",
+                    "$DYL_Env_Home_Dirs/otls/Growth/Search",
+                    "$DYL_Env_Home_Dirs/otls/Terrian",
+                ],
+            },
+        },
+        {
+            "HOUDINI_VEX_PATH": {
+                "method": "append",
+                "value": [
+                    "$DYL_Env_Home_Dirs/vex/",
+                    "$DYL_Env_Home_Dirs/vex/include",
+                    "$DYL_Env_Home_Dirs/vex/include/child",
+                    "$DYL_Env_Home_Dirs/vex/include/child/element",
+                    "$DYL_Env_Home_Dirs/vex/include/child/element/basic",
+                    "$DYL_Env_Home_Dirs/vex/include/child/element/basic/deep",
+                ],
+            },
+        },
+        {
+            "HOUDINI_OCL_PATH": {
+                "method": "append",
+                "value": [
+                    "$DYL_Env_Home_Dirs/ocl/",
+                    "$DYL_Env_Home_Dirs/ocl/include",
+                ],
+            },
+        },
+    ],
+}
